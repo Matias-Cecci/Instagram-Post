@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    margin: 50px;
+}
+
+.ip-container{
+    width: 480px;
+    margin: auto;
+    background-color: white;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ip-title{
+    
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-header{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+}
+.box-header > i{
+    padding: 0px 10px 0px 10px;
+}
+
+.box-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.box-title > p{
+    margin: 1px
+}
+.text1{
+    font-weight: bold;
+}
+
+.box-menu{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.ip-image{
+    min-height: 360px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/06/20/02/30/grace-3485667_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ip-comments{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+i{
+    font-size: 34px;
+
+}
+#html5{
+    font-size: 28px;
+}
+
+.ip-buttons{
+    margin-top: 5px;
+    padding: 8px 15px 8px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+.left-buttons > i{
+    padding-right: 5px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+
+    color: black;
+}
+
+.ip-likes{
+    margin-top: 15px;
+    padding: 5px 5px 0px 8px;
+}
+
+.ip-text{
+    margin-top: 0px;
+    padding: 0px 5px 5px 8px;
+}
